@@ -1,0 +1,5 @@
+time/number
+
+cpp secs/num 0.000008228874109
+py  secs/num 0.000016201008925
+sh  secs/num 0.000060513203322
