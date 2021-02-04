@@ -1,13 +1,15 @@
 // Your First C++ Program
 
 #include <iostream>
-#include<sstream>  
+#include<sstream> 
+#include <string> 
 int main() {
 	long NUMBER;
+	std::string NUM;
 	NUMBER=0;
 	for(;;) {
-		std::cout << std::to_string(NUMBER)+"\n";
-		std::cout << "-"+std::to_string(NUMBER)+"\n";
+		NUM=std::to_string(NUMBER);
+		std::cout << NUM+", -"+NUM+"\n";
 		NUMBER+=1;
 	}
     return 0;
