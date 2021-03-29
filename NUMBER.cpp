@@ -1,16 +1,10 @@
-// Your First C++ Program
-
 #include <iostream>
-#include<sstream> 
-#include <string> 
+
 int main() {
-	long NUMBER;
-	std::string NUM;
-	NUMBER=0;
-	for(;;) {
-		NUM=std::to_string(NUMBER);
-		std::cout << NUM+", -"+NUM+"\n";
-		NUMBER+=1;
-	}
+    long long n = 0;
+    while (1) {
+        std::cout << n << "\n";
+        n++;
+    }
     return 0;
 }
